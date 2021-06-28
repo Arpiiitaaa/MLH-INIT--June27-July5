@@ -1,0 +1,23 @@
+# sorting using custom key
+employees = [
+    {'Name': 'Atharva', 'Age': 20},
+    {'Name': 'Sherry', 'Age': 21},
+    {'Name': 'Jiya', 'Age': 18},
+]
+
+# custom functions to get employee info
+def get_name(employee):
+    return employee.get('Name')
+    
+def get_age(employee):
+    return employee.get('Age')
+
+
+# sort by name (Ascending order)
+employees.sort(key=get_name)
+print(employees, end='\n\n')
+
+# sort by Age (Ascending order)
+employees.sort(key=get_age)
+print(employees, end='\n\n')
+
