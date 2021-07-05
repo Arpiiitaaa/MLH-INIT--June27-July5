@@ -14,10 +14,10 @@ import schedule
 import time
 
 def job():
-    print("I'm working...")
+    print("Work!")
 
 def job2():
-    print("yo boiss..")
+    print("Amigos!")
 
 def job3():
     print("Hello")
